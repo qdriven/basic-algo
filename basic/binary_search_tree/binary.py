@@ -2,7 +2,7 @@
 from time import time
 from timeit import timeit
 
-from basic.logN import bs_contains, performance_sorted_collection
+from basic.binary_search_tree import bs_contains, performance_sorted_collection
 
 
 def insert_in_place(orderd_collection, target):
