@@ -1,6 +1,9 @@
 # -*- coding:utf-8 -*-
 from time import time
 
+"""
+todo: what's complexity of the binary search tree
+"""
 
 def contains(collection, target):
     """
