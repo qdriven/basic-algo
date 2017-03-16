@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-from basic.binary_search_tree import bs_contains, performance_sorted_collection
+from basic.binary.binary_search_tree import bs_contains, performance_sorted_collection
 
 
 def insert_in_place(ordered_collection, target):
