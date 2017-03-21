@@ -37,26 +37,26 @@ def add(tree, value):
     return tree
 
 
-def _find_node(tree, value, parent=None,is_right_child=False):
+def _find_node(tree, value, parent=None, is_right_child=False):
     if tree == []:
-        return (None, parent,is_right_child)
+        return (None, parent, is_right_child)
     if node_value(tree) == value:
         return (tree, parent)
     elif value < node_value(tree):
-        return _find_node(left_child(tree), value, parent=tree,is_right_child=False)
+        return _find_node(left_child(tree), value, parent=tree, is_right_child=False)
     elif value > node_value(tree):
-        return _find_node(right_child(tree), value, parent=tree,is_right_child=True)
+        return _find_node(right_child(tree), value, parent=tree, is_right_child=True)
 
 
 def contains(tree, value):
     return _find_node(tree, value) != None
 
 
-def _find_min_node(tree, parent=None,is_right_child=False):
+def _find_min_node(tree, parent=None, is_right_child=False):
     if left_child(tree) == []:
-        return (tree, parent,is_right_child)
+        return (tree, parent, is_right_child)
     else:
-        return _find_min_node(left_child(tree), tree,False)
+        return _find_min_node(left_child(tree), tree, False)
 
 
 def _remove_node(node_to_remove, parent, is_right_child_of_parent):
@@ -70,13 +70,14 @@ def _remove_node(node_to_remove, parent, is_right_child_of_parent):
             else:
                 left_child(parent, new_reference)
 
-    if left_child(node_to_remove)!=[] and right_child() !=[]:
-        (right_child_min_node,rchild_min_node_parent,is_right_child)=_find_min_node(right_child(node_to_remove),node_to_remove)
-        node_value(node_to_remove,node_value(right_child_min_node))
-        _remove_node(right_child_min_node,rchild_min_node_parent,is_right_child)
-    elif left_child(node_to_remove)!=[]:
+    if left_child(node_to_remove) != [] and right_child() != []:
+        (right_child_min_node, rchild_min_node_parent, is_right_child) = _find_min_node(right_child(node_to_remove),
+                                                                                        node_to_remove)
+        node_value(node_to_remove, node_value(right_child_min_node))
+        _remove_node(right_child_min_node, rchild_min_node_parent, is_right_child)
+    elif left_child(node_to_remove) != []:
         set_parent_reference(left_child(node_to_remove))
-    elif right_child(node_to_remove)!=[]:
+    elif right_child(node_to_remove) != []:
         set_parent_reference(right_child(node_to_remove))
     else:
         set_parent_reference([])
