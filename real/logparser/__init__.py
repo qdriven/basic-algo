@@ -5,7 +5,7 @@ import bz2
 from optparse import OptionParser
 
 from collections import defaultdict
-lear
+
 
 class LogProcessor(object):
     """
@@ -79,8 +79,9 @@ class MaxSizeHandler(object):
         This method formats the report and prints 
         it to the console.
         """
-        for f,s in self.warning_files:
+        for f, s in self.warning_files:
             print('%-*s :%d' % (self.name_size, f, s))
+
 
 def get_stream(path):
     """
@@ -98,6 +99,7 @@ def get_stream(path):
         _open = bz2.open
 
     return _open(path)
+
 
 class ErrorCodeHandler(object):
     """
@@ -137,13 +139,14 @@ class ErrorCodeHandler(object):
         longest_num = sorted(self.error_codes.values())[-1]
         longest = len(str(longest_num))
 
-        for k,v in self.error_codes.items():
+        for k, v in self.error_codes.items():
             print('{0}: {1:>{2}}'.format(k, v, longest))
 
         # Print summary information
         print('Errors: {0}; Failure Rate: {1:%}; Codes: {2}'.format(
-            self.errors, float(self.errors)/self.lines,
-                len(self.error_codes.keys())))
+            self.errors, float(self.errors) / self.lines,
+            len(self.error_codes.keys())))
+
 
 if __name__ == '__main__':
     parser = OptionParser()
