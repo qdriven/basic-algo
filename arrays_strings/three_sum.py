@@ -25,4 +25,4 @@ class Solution(object):
     def threeSum_simpleloop(self,nums,target = 0):
         if len(nums)<3:
             return []
-        pass
+        nums.sort()
