@@ -7,7 +7,7 @@ package io.hedwig.notes.algorithm.princeton.algo4;
  * 3. 将 p 除以 q得到余数r，
  * p和q的最大公约数即为q和 r 的最大公约数。
  */
-public class Gcd {
+public class GCD {
 
   public static int gcd(int p,int q){
     if(q==0) return p;
