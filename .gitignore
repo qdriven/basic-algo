@@ -1,6 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### Rust template
 # Compiled files
+algs4-data/
 *.o
 *.so
 *.rlib
