@@ -2,6 +2,9 @@ package io.hedwig.notes.datastructure.graph;
 
 import java.util.ArrayList;
 
+/**
+ * 无向图
+ */
 public class UndirectedGraphNode {
 
   int label;

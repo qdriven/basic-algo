@@ -1,19 +1,21 @@
-package io.hedwig.notes.datastructure.linkedList;
+package io.hedwig.notes.datastructure.linklist;
 
 /**
  * double linked nodes
+ *
+ * previous  <---current---> next
  */
-public class DlinkedNode {
+public class DListNode {
   private int val;
-  private DlinkedNode prev,next;
+  private DListNode prev,next;
 
-  public DlinkedNode(int val) {
+  public DListNode(int val) {
     this.val = val;
     this.prev = null;
     this.next = null;
   }
-  public DlinkedNode reverse(DlinkedNode head) {
-    DlinkedNode curr = null;
+  public DListNode reverse(DListNode head) {
+    DListNode curr = null;
     while (head != null) {
       curr = head;
       head = curr.next;
@@ -30,19 +32,19 @@ public class DlinkedNode {
     this.val = val;
   }
 
-  public DlinkedNode getPrev() {
+  public DListNode getPrev() {
     return prev;
   }
 
-  public void setPrev(DlinkedNode prev) {
+  public void setPrev(DListNode prev) {
     this.prev = prev;
   }
 
-  public DlinkedNode getNext() {
+  public DListNode getNext() {
     return next;
   }
 
-  public void setNext(DlinkedNode next) {
+  public void setNext(DListNode next) {
     this.next = next;
   }
 }

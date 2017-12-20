@@ -2,6 +2,9 @@ package io.hedwig.notes.datastructure.graph;
 
 import java.util.ArrayList;
 
+/**
+ * 有向图
+ */
 public class DirectedGraphNode {
 
   int label;
@@ -9,6 +12,6 @@ public class DirectedGraphNode {
 
   DirectedGraphNode(int x) {
     label = x;
-    neighbors = new ArrayList<DirectedGraphNode>();
+    neighbors = new ArrayList<>();
   }
 }

@@ -1,5 +1,5 @@
 /**
- * Binary Heap
+ * Binary Heap: 二叉树数组
  * Max HEAPIFY
  * Build Max HEAP
  * HEAP SORT

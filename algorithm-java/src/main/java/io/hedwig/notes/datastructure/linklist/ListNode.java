@@ -1,4 +1,4 @@
-package io.hedwig.notes.datastructure.linkedList;
+package io.hedwig.notes.datastructure.linklist;
 
 /**
  * List Node
@@ -11,6 +11,10 @@ public class ListNode {
   public ListNode(int val, ListNode next) {
     this.val = val;
     this.next = next;
+  }
+
+  public ListNode(int val) {
+    this.val = val;
   }
 
   public int getVal() {
@@ -43,5 +47,20 @@ public class ListNode {
       head = next;
     }
     return prev;
+  }
+
+  @Override
+  public String toString() {
+
+    ListNode current = this;
+    StringBuffer sb = new StringBuffer();
+    while(current.getNext()!=null){
+      sb.append(current.val);
+      sb.append("-");
+      current=current.getNext();
+    }
+
+    sb.append(current.val);
+    return sb.toString();
   }
 }

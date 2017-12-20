@@ -1,11 +1,9 @@
 package io.hedwig.notes.algorithm.lintcode.entry;
 
-import static org.junit.Assert.*;
-
 import org.junit.Assert;
 import org.junit.Test;
 
-import io.hedwig.notes.algorithm.lintcode.ListNode;
+import io.hedwig.notes.datastructure.linklist.ListNode;
 
 /**
  * @author: patrick

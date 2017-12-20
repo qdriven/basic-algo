@@ -4,7 +4,8 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
- * 1. author: patrick
+ * @author: patrick
+ * stack 替换deque
  */
 public class StackDemo {
 

@@ -1,7 +1,7 @@
 package io.hedwig.notes.algorithm.lintcode.entry;
 
 import io.hedwig.notes.algorithm.annotations.AlgoTag;
-import io.hedwig.notes.algorithm.lintcode.ListNode;
+import io.hedwig.notes.datastructure.linklist.ListNode;
 
 /**
  * @author: patrick
