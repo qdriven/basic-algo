@@ -7,6 +7,10 @@ package io.hedwig.notes.algorithm.sortings;
  其实现可类似于插入排序但使用不同增量。
  更高效的原因是它权衡了子数组的规模和有序性
  */
-public class ShellSorter {
+public class ShellSorter implements Sorter {
 
+  @Override
+  public void sort(int[] aList) {
+
+  }
 }

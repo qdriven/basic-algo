@@ -1,7 +1,7 @@
 package io.hedwig.notes.algorithm.bst;
 
 /**
- * 1. author: patrick 2. address: github.com/ideafortester
+ * @author: patrick
  */
 public class IntBinarySearchTree {
 
