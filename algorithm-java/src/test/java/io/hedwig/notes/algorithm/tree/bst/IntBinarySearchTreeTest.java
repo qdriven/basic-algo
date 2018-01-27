@@ -1,6 +1,4 @@
-package io.hedwig.notes.algorithm.bst;
-
-import static org.junit.Assert.*;
+package io.hedwig.notes.algorithm.tree.bst;
 
 /**
  * 1. author: patrick 2. address: github.com/ideafortester

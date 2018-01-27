@@ -1,4 +1,4 @@
-package io.hedwig.notes.algorithm.bst;
+package io.hedwig.notes.algorithm.tree.bst;
 
 /**
  * @author: patrick
