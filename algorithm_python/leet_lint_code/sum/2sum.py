@@ -18,6 +18,7 @@ return [0, 1].
 class Solution_MIR(object):
     def twoSum(self, nums, target):
         """
+        O(n^2) 两次循环
         :type nums: List[int]
         :type target: int
         :rtype: List[int]
@@ -34,6 +35,7 @@ class Solution_MIR(object):
 class Solution_FASTER(object):
     def twoSum(self, nums, target):
         """
+        将数字和需要的和放到一个dict中，如果发现就返回，一次循环既可以
         :type nums: List[int]
         :type target: int
         :rtype: List[int]
