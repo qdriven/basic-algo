@@ -30,6 +30,19 @@ def get_2dup_counter(candidates):
     return [k for k, v in count_result.items() if v == 2]
 
 
+def get_2dup_counter2(candidates):
+    if candidates is None:
+        return []
+    if len(candidates) <= 1:
+        return []
+    result = set()
+    for candidate in candidates:
+        if candidates.count(candidate) == 2:
+            result.add(candidate)
+
+    return result
+
+
 if __name__ == '__main__':
     print(get_2dup(source))
     print(get_2dup([1]))
@@ -39,3 +52,4 @@ if __name__ == '__main__':
     print(get_2dup_counter(None))
     print(get_2dup_counter([]))
     print(get_2dup_counter([9]))
+    print(get_2dup_counter2(source))
