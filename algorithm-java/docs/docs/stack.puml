@@ -1,0 +1,10 @@
+@startuml
+
+class StackOfString {
+   push(String item)
+   String pop()
+   boolean isEmpty()
+   int size()
+}
+
+@enduml
