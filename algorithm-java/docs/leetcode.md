@@ -1,0 +1,2 @@
+- 7. https://leetcode.com/problems/reverse-integer/description/
+-9.https://leetcode.com/problems/palindrome-number/description/

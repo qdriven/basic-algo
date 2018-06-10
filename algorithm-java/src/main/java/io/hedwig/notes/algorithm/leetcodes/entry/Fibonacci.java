@@ -1,4 +1,4 @@
-package io.hedwig.notes.algorithm.lintcode.entry;
+package io.hedwig.notes.algorithm.leetcodes.entry;
 
 import io.hedwig.notes.algorithm.annotations.AlgoTag;
 

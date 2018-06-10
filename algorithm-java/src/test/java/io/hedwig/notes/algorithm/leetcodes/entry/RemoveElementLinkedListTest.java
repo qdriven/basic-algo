@@ -1,4 +1,4 @@
-package io.hedwig.notes.algorithm.lintcode.entry;
+package io.hedwig.notes.algorithm.leetcodes.entry;
 
 import org.junit.Assert;
 import org.junit.Test;
