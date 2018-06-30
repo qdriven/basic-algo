@@ -18,3 +18,29 @@ LIFO: Last In First Out
 == Queue
 
 FIFO First In First Out
+
+== Linked List
+
+- Simple Linked List
+- Double Linked List
+
+insert/delete is o(1)
+random-access is o(n)
+
+- Add Operation
+  * head.next -> cur (use temp to store head.next first)
+  * cur.next-> copy_of(head.next)
+
+- Delete
+  * pre.next -> cur.next
+  * cur.next -> null
+
+- Delete First Node
+  * assign the next node to head
+
+- Design Linked List
+   * Node: val/next
+   * addAtHead
+   * addAtTail
+   * addAtIndex
+   * deleteAtIndex

@@ -5,8 +5,8 @@ package io.hedwig.notes.datastructure.linklist;
  */
 public class ListNode {
 
-  private int val;
-  private ListNode next;
+  public int val;
+  public ListNode next;
 
   public ListNode(int val, ListNode next) {
     this.val = val;

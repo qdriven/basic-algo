@@ -1,0 +1,10 @@
+digraph G {
+    header;
+    node1;
+    node2;
+    tail;
+
+    header -> node1
+    node1-> node2
+    node2->tail
+}
