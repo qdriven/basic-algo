@@ -1,0 +1,7 @@
+# Data Structures
+
+There are many data structures, so let's go some
+basic ones.
+
+## Collection,Stack,Queue
+

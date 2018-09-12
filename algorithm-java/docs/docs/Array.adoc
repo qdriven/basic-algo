@@ -1,0 +1,31 @@
+= Data Structure - Array
+
+Array in one of the fundamental blocks in data structure.
+
+To understand array, you nee to understand following questions:
+
+- array VS dynamic array
+- basic operation of array and dynamic array
+- multidimensional arrays and be able to use two-dimensional array
+- Be able to use two-pointer technique to practical problems
+
+== 1. Introduction to Array
+
+Array: store a collection of elements ** sequentially **,but
+elements can be ** accessed randomly **.
+
+- Search array element by ** index **
+- Basic Array structure:
+
+image::https://s3-lc-upload.s3.amazonaws.com/uploads/2018/03/20/screen-shot-2018-03-20-at-191856.png[basic_array]
+
+=== 1.1 Basic Array Operation
+
+some basic array operation:
+
+1. initialize
+2. get length
+3. add element
+4. iterate all elements
+5. sort all elements
+

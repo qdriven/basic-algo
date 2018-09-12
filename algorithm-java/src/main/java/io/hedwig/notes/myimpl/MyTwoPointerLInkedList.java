@@ -111,4 +111,17 @@ public class MyTwoPointerLInkedList {
 
     return head;
   }
+
+  public ListNode reverseList(ListNode head) {
+    ListNode pre = null;
+    ListNode next ;
+    ListNode cur =head;
+    while(cur!=null){
+      next = cur.next; //backup next value
+      cur.next = pre; //change link direction
+      pre=cur; //move point
+      cur=next; //move point
+    }
+    return pre;
+  }
 }
