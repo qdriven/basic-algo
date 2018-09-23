@@ -6,17 +6,19 @@ package io.hedwig.ds.card.array.quiz;
 public class LargestNumberAtLeastTwiceOfOther {
   public int dominantIndex(int[] nums) {
 //    find largest and second largest one, then compare
-    if(nums.length<2) return -1;
-    int lIndex = 0;
-    int sIndex = 1;
-    if(nums[0]<nums[1]){
-      lIndex=1;
-      sIndex=0;
+    int max = -1, index = -1, second = -1;
+    for (int i = 0; i < nums.length; i++) {
+      if(nums[i]>max){
+        second=max;
+        max = nums[i];
+        index= i;
+      }else{
+        if(nums[i]>second){
+          second=nums[i];
+        }
+      }
     }
 
-    for (int i = 2; i < nums.length; i+=2) {
-      //find largest and second largest
-    }
-    return -1;
+    return max>=second*2?index:-1;
   }
 }

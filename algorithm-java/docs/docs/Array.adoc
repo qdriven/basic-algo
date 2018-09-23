@@ -29,3 +29,48 @@ some basic array operation:
 4. iterate all elements
 5. sort all elements
 
+=== 1.2 Dynamic Array
+
+dynamic array which is still random access list data
+structure, but with variable size,that means, you need to
+handle resize issue. In JAVA, ArrayList is the typical type.
+
+=== 1.3 Two dimensional Array
+
+One-dimensional array:
+
+image::https://s3-lc-upload.s3.amazonaws.com/uploads/2018/03/31/screen-shot-2018-03-31-at-161748.png[one-dimensional array]
+
+two dimensional array:
+
+image::https://s3-lc-upload.s3.amazonaws.com/uploads/2018/03/31/screen-shot-2018-03-31-at-162857.png[two-dimensional]
+
+and ** dynamic two-dimensional array ** is just a nested dynamic array.
+
+- Digonal Traverse
+- Spiral Matrix
+- Pascal's Triangle
+
+=== 1.4 String
+
+in JAVA String is immutable, so if concatenate with "+",
+the space might be:
+
+In Java, since the string is immutable, concatenation works by first allocating enough space for the new string, copy the contents from the old string and append to the new string.
+
+Therefore, the time complexity in total will be:
+
+Quote:
+    5 + 5 × 2 + 5 × 3 + … + 5 × n
+= 5 × (1 + 2 + 3 + … + n)
+= 5 × n × (n + 1) / 2,
+which is O(n2).
+
+Have a try with java microbenchmark
+
+
+=== 1.5 Two Pointer
+
+two pointers with different steps
+
+sometimes,sort first and need a greedy thought.
