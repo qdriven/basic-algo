@@ -74,3 +74,16 @@ Have a try with java microbenchmark
 two pointers with different steps
 
 sometimes,sort first and need a greedy thought.
+
+=== 1.6 Array Related Techniques
+
+- String
+- HashTable
+- LinkedList
+- Queue
+- Stack
+- Binary Search
+- two pointer
+  * slow and faster pointer in linked list
+  * sliding window
+- Greedy strategy
