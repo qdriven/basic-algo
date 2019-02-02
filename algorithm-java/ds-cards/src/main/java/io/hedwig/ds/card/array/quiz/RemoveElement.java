@@ -9,6 +9,7 @@ package io.hedwig.ds.card.array.quiz;
  * The order of elements can be changed. It doesn't matter what you leave beyond the new length.
  */
 public class RemoveElement {
+//  or use two pointer
   public int removeElement(int[] nums, int val) {
     int count = 0;
     for(int num : nums){
