@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>ds-cards</module>
+        <module>revist-jcf</module>
     </modules>
 
     <dependencies>

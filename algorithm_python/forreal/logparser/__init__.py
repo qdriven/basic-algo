@@ -170,7 +170,7 @@ if __name__ == '__main__':
             print >> sys.stderr, str(e)
             sys.exit(-1)
 
-    size_check = MaxSizeHandler(opts.size)
+    size_check = MaxSizeHandler(opts._size)
     call_chain.append(size_check.process)
     processor = LogProcessor(call_chain)
     processor.parse(file_stream)
