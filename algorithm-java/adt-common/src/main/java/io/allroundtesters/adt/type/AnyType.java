@@ -6,4 +6,6 @@ package io.allroundtesters.adt.type;
  */
 public class AnyType extends Object {
 
+  public AnyType() {
+  }
 }

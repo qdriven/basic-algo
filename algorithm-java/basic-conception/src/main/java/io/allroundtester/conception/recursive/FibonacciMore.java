@@ -2,9 +2,6 @@ package io.allroundtester.conception.recursive;
 
 public class FibonacciMore {
 
-  /**
-   * Compute Fibonacci numbers as described in Chapter 1.
-   */
   public static int fib(int n) {
     if (n <= 1) {
       return 1;
@@ -13,9 +10,6 @@ public class FibonacciMore {
     }
   }
 
-  /**
-   * Compute Fibonacci numbers as described in Chapter 1.
-   */
   public static int fibonacci(int n) {
     if (n <= 1) {
       return 1;
