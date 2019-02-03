@@ -11,6 +11,8 @@
     <modules>
         <module>ds-cards</module>
         <module>revist-jcf</module>
+        <module>adt-common</module>
+        <module>basic-conception</module>
     </modules>
 
     <dependencies>

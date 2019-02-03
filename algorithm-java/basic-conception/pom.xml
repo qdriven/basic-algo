@@ -9,14 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>revist-jcf</artifactId>
+    <artifactId>basic-conception</artifactId>
 
-    <dependencies>
-        <dependency>
-            <groupId>io.hedwig.notes</groupId>
-            <artifactId>adt-common</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
 
 </project>
