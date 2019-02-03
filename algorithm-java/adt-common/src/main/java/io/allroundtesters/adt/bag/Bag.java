@@ -15,7 +15,6 @@ public class Bag implements Iterable<AnyType> {
   private int size;
   private final int DEFAULT_SIZE=30;
   private transient AnyType[] table;
-
   public Bag() {
     this.size = 0;
     this.table = new AnyType[this.DEFAULT_SIZE];

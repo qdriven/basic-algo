@@ -1,0 +1,11 @@
+digraph {
+    ndoesep=.05;
+    rankdir=LR;
+    node [shape=record,width=.1,height=.1];
+    node0 [label = "<f0> top:12|<f1> |<f2> |<f3> |<f4> |<f5> |<f6> | <f7> bottom",height=2.5];
+    node [shape=record,width=.1,height=.1,color=red]
+    node1 [label="12"]
+    node0:f0-> node1 [label="pop() first out"]
+    node2 [label="12"]
+    node2 -> node0:f0 [label="push() last in "]
+}
