@@ -1,0 +1,17 @@
+digraph TrieTree {
+  root;
+  a;
+  b;
+  c;
+  d;
+  f;
+  o;
+  y;  
+  root->a;
+  root->b;
+  a -> c;
+  a -> d;
+  b -> o;
+  b->f;
+  o->y;
+}
