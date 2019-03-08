@@ -2,14 +2,13 @@
 
 """
 -------------------------------------------------
-   File Name：     __init__.py
+   File Name：     struct_methods
    Description :
    Author :        patrick
-   date：          2019/2/5
+   date：          2019/3/5
 -------------------------------------------------
-   Change Activity: todo: try to find a way to making code as
-                    documentation,jupter presentation??
-                   2019/2/5:
+   Change Activity:
+                   2019/3/5:
 -------------------------------------------------
 """
 __author__ = 'patrick'
