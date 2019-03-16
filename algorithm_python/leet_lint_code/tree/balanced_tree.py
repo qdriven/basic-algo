@@ -18,6 +18,7 @@ class TreeNode(object):
         self.left = None
         self.right = None
 
+
 class Solution(object):
     def isBalanced(self, root):
         """
@@ -32,9 +33,9 @@ class Solution(object):
             else:
                 return False
 
-    def depth(self,node):
+    def depth(self, node):
         if node is None: return -1
-        return max(self.depth(node.left),self.depth(node.right))+1
+        return max(self.depth(node.left), self.depth(node.right)) + 1
 
     def isBalanced_new(self, root):
         """
