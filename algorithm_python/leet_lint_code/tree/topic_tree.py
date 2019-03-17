@@ -244,3 +244,7 @@ def path_sum(root, sum):
     else:
         sum -= root.val
         return path_sum(root.left, sum) or path_sum(root.right, sum)
+
+
+def build_tree(inorder,postorder):
+    pass
