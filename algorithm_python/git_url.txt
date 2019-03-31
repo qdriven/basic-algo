@@ -1,0 +1,14 @@
+https://github.com/sherxon/AlgoDS.git
+https://github.com/qiwsir/algorithm.git
+https://github.com/bt3gl/Python-and-Algorithms-and-Data-Structures.git
+https://github.com/AllenDowney/ThinkDataStructures.git
+https://github.com/billryan/algorithm-exercise.git
+https://github.com/keon/algorithms.git
+https://github.com/calebmadrigal/algorithms-in-python.git
+https://github.com/kevin-wayne/algs4.git
+https://github.com/gavinfish/LeetCode-Python.git
+https://github.com/yidao620c/core-algorithm.git
+https://github.com/jwasham/google-interview-university.git
+https://github.com/jeffgerickson/algorithms.git
+https://github.com/shichao-an/leetcode-python.git
+https://github.com/heineman/python-algorithms.git
