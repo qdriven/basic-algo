@@ -1,14 +1,14 @@
 digraph TrieTree {
-  root;
-  a;
+  root [label="root-node"];
+  a [label= "node-a" ];
   b;
   c;
   d;
   f;
   o;
   y;  
-  root->a;
-  root->b;
+  root->a [label="edge"];
+  root->b [label="edge"];
   a -> c;
   a -> d;
   b -> o;

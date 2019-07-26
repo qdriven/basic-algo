@@ -1,0 +1,19 @@
+digraph PrefixTrieTree {
+    v_0; 
+    v_1;
+    v_2;
+    v_3;
+    v_4;
+    v_5;
+    v_6;
+    v_7;
+
+    v_0->v_1 [label="edge"];
+    v_0 ->v_2 [label="入度0"];
+    v_2 -> v_3 [label="出度2"];
+    v_2->v_4;
+    v_1->v_5;
+    v_1->v_6;
+    v_0->v_7
+}
+
