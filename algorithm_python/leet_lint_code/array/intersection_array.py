@@ -39,6 +39,7 @@ class Solution_MIR_2:
 
         return result
 
+
 class Solution_FASTER:
     # @param {int[]} nums1 an integer array
     # @param {int[]} nums2 an integer array
@@ -52,4 +53,4 @@ class Solution_FASTER:
 
         return result
 
-# todo for sorted and distincted numbers intersection
+# todo for sorted and distinct numbers intersection

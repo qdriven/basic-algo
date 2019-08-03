@@ -31,6 +31,4 @@ def hello(name):
 hello("patrick")
 """
 
-random_list= [random.randint(10, 200) for item in range(10000)]
-
-
+random_list = [random.randint(10, 200) for item in range(10000)]

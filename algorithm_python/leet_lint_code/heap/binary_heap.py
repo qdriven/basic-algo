@@ -4,4 +4,3 @@ class BinaryHeap:
         self.heapList=[0]
         self.cur_size=0
 
-    
