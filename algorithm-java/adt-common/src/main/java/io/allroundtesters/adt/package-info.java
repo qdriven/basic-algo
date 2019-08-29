@@ -1,5 +1,5 @@
 /**
  * @author: patrick on 2019-02-03
- * @Description:
+ * @Description: Data Structures
  */
 package io.allroundtesters.adt;
