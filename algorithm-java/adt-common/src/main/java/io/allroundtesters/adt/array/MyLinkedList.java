@@ -3,6 +3,10 @@ package io.allroundtesters.adt.array;
 /**
  * @author: patrick on 2019-02-07
  * @Description:
+ *
+ * ToDo: Test For
+ * 1. ArrayList
+ * 2. LinkedList
  */
 public class MyLinkedList<T> {
 
@@ -23,7 +27,7 @@ public class MyLinkedList<T> {
     if(head==null){
       this.head= node;
     }else{
-      LinkedNode temp = this.head;
+      LinkedNode<T> temp = this.head;
       while(temp.getNext()!=null){ //go to last
         temp=temp.getNext();
       }

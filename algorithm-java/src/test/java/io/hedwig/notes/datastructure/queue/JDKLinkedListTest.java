@@ -1,6 +1,5 @@
 package io.hedwig.notes.datastructure.queue;
 
-import static org.junit.Assert.*;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -9,7 +8,6 @@ import org.junit.Test;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.PriorityQueue;
-import java.util.concurrent.PriorityBlockingQueue;
 
 /**
  * @author: patrick
